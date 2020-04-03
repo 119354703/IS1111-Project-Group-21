@@ -40,4 +40,8 @@
         lstOutput.Items.Add("Served By: Sam Murphy")
         lstOutput.Items.Add("---------------------------------------------------------------------------------------")
     End Sub
+
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Me.Visible = False
+    End Sub
 End Class
