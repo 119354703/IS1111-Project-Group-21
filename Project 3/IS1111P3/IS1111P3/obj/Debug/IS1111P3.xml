@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IS1111P3
+</name>
+</assembly>
+<members>
+<member name="T:IS1111P3.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:IS1111P3.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:IS1111P3.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tbl_UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblCustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblEmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblOrderDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblOrdersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblPriceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tbl_UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblCustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblEmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblOrderDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblOrdersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblPriceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tbl_UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblCustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblEmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblOrderDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblOrdersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSet.tblPriceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.tbl_UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.tblCustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.tblEmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.tblOrderDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.tblOrdersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.tblPriceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(IS1111P3.IS1111_Project1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(IS1111P3.IS1111_Project1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(IS1111P3.IS1111_Project1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.UpdateAll(IS1111P3.IS1111_Project1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:IS1111P3.IS1111_Project1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
